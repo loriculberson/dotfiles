@@ -81,6 +81,7 @@ alias gr="git remote -v"
 alias c="clear"
 
 alias tri="cd ~/trilogy && ls -l"
+alias dot="cd ~/dotfiles && ls -l"
 
 # spackle
 alias sp="spackler build -p . -d"
