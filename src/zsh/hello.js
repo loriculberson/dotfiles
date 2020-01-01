@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const sayHi = () => console.log("Lori is amazing!")
+const sayHi = () => console.log("Good morning sunshine!")
 
 sayHi()

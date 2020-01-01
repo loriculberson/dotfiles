@@ -20,7 +20,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/terminal-greeting.sh
 ~/.zsh/hello.js
 
-echo "Good morning sunshine!"
+#echo "Good morning sunshine!"
 
 #prompt header
 function parse_git_branch {
