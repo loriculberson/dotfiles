@@ -20,7 +20,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/terminal-greeting.sh
 ~/.zsh/hello.js
 
-echo "Good morning sunshine!"
+#echo "Good morning sunshine!"
 
 #prompt header
 function parse_git_branch {
@@ -81,6 +81,7 @@ alias gr="git remote -v"
 alias c="clear"
 
 alias tri="cd ~/trilogy && ls -l"
+alias dot="cd ~/dotfiles && ls -l"
 
 # spackle
 alias sp="spackler build -p . -d"
