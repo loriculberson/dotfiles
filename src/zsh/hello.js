@@ -4,7 +4,8 @@ const options = [
   "Yes Queen!", 
   "Yabba dabba dooo!",
   "Texas loves you",
-  "You are an IRONMAN!"
+  "You are an IRONMAN!",
+  "I'm too sexy for this terminal"
 ]
 
 function getGreeting(greetings) {

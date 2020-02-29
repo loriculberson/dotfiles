@@ -80,7 +80,7 @@ alias gr="git remote -v"
 # file navigation
 alias c="clear"
 
-alias tri="cd ~/trilogy && ls -l"
+alias tri="cd ~/trilogy/022020-wis/uofw-virt-fsf-pt-02-2020-u-lol/ && ls -l"
 alias dot="cd ~/dotfiles && ls -l"
 
 # spackle
