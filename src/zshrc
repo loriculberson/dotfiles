@@ -105,6 +105,9 @@ export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/
 # Setting PATH for Python 3.6
 export PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 
+# Java PATH
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/
+
 # Port Stuff
 show-port() { echo "$(lsof -i :$1)"; }
 free-port() { kill "$(lsof -t -i :$1)"; }
