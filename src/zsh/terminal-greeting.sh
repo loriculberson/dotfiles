@@ -11,5 +11,4 @@ CEILING=7
 result=$(jot -r 1 $FLOOR $CEILING)
 greeting=${greetings[result]}
 # echo "greeting"
-echo greeting
 
