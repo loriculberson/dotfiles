@@ -108,6 +108,10 @@ export PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 # Java PATH
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/
 
+# MySQL PATH
+# export PATH="/usr/local/mysql/bin:$PATH"
+
+
 # Port Stuff
 show-port() { echo "$(lsof -i :$1)"; }
 free-port() { kill "$(lsof -t -i :$1)"; }
